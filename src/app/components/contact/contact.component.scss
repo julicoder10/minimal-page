@@ -1,0 +1,20 @@
+section{
+    background-color:black;
+    color:white;
+    height:auto;
+    padding:50px;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    gap:50px;
+    p{
+        width:300px;
+    }
+    ul{
+        li{
+            a{
+                text-decoration:none;
+            }
+        }
+    }
+}

@@ -1,0 +1,40 @@
+section{
+    height:100vh;
+    section{
+        display:flex;
+        padding:40px;
+        justify-content:center;
+        gap:200px;
+        flex-wrap:wrap;
+        div:nth-child(1){
+            display:flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        div:nth-child(2){
+            display:flex;
+            justify-content: center;
+            flex-direction: column;
+            img{
+                width:500px;
+            }
+        }
+    }
+}
+
+
+@media screen and(max-width:768px){
+    section{
+        section{
+            gap:50px;
+            #img-div{
+                width:100%;
+                margin-bottom:50px;
+                img{
+                    width:100%;
+                }
+           }
+        }
+    }
+    
+}
